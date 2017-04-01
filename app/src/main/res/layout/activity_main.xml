@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="用户登录"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:hint="请输入用户名"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/serverurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:hint="请输入代理地址"
+        android:text="http://yushigui.gotoip2.com"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_style2"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
